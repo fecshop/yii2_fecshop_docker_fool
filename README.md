@@ -82,8 +82,10 @@ service docker start
 
 ```
 chmod 755 /usr/local/bin/docker-compose
+cd /www/web/yii2_fecshop_docker
 docker-compose build
 ```
+
 
 
 完成后，运行：（守护进程的方式）
