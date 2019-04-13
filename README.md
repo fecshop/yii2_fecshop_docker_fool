@@ -63,7 +63,7 @@ yum install unzip
 unzip -r yii2_fecshop_docker.zip
 ```
 
-解压后的文件夹： `/www/webyii2_fecshop_docker`
+解压后的文件夹： `/www/web/yii2_fecshop_docker`
 
 2.构建：
 
@@ -243,4 +243,14 @@ systemctl enable docker
 
 
 对于docker傻瓜版安装fecshop，只到安装上面的部分，其他的都查看docker标准安装方式
+
+
+
+### 其他
+
+当docker-compose up -d后，如果修改了yml文件，譬如将某个service的port更改后，想要重新创建docker container，那么可以通过下面的命令
+
+```
+docker-compose up -d --force-recreate
+```
 
