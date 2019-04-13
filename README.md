@@ -200,7 +200,19 @@ img5.mymiss.net
 ./app/fecshop/common/config/fecshop_local_services/Image.php
 ，将上面配置文件中的域名`mymiss.net`替换成您的域名
 
-5.启动docker 容器
+
+5.设置权限
+
+```
+chmod 777 -R /www/web/yii2_fecshop_docker/app/fecshop/appfront/web/assets
+chmod 777 -R /www/web/yii2_fecshop_docker/app/fecshop/apphtml5/web/assets
+chmod 777 -R /www/web/yii2_fecshop_docker/app/fecshop/appadmin/web/assets
+chmod 777 -R /www/web/yii2_fecshop_docker/app/fecshop/appserver/web/assets
+chmod 777 -R /www/web/yii2_fecshop_docker/app/fecshop/appapi/web/assets
+chmod 777 -R /www/web/yii2_fecshop_docker/app/fecshop/appimage/common/media
+```
+
+6.启动docker 容器
 
 ```
 docker-compose stop
