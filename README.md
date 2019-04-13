@@ -2,13 +2,14 @@ Fecshop 全称为Fancy ECommerce Shop，是基于php Yii2框架之上开发的�
 
 Fecshop Github地址: https://github.com/fancyecommerce/yii2_fecshop
 
-Fecshop Docker
+Fecshop Docker 傻瓜版安装
 =============
 
 
-> 用于快速的，使用docker搭建fecshop的环境，方便快速部署，通过docker compopse
-> 通过下载镜像，自己构建镜像，把fecshop需要的各个软件以及扩展都安装好，您
-> 可以根据下面的说明操作
+> 用于快速的，使用docker搭建fecshop的环境，方便快速部署，
+fecshop文件，数据库等都已经初始化并设置好。
+
+本部分作用为
 
 如果你对docker不熟悉，可以参看 [fecshop docker 安装视频](http://www.fecshop.com/doc/fecshop-guide/instructions/cn-1.0/guide-fecshop_video_docker_install.html)
 
