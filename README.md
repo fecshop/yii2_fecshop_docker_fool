@@ -46,10 +46,12 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-c
 
 ### docker compose 安装部署环境
 
+1.下载压缩包
 
-1.百度网盘下载压缩包：http://pan.baidu.com/s/1hs1iC2C
+1.1百度网盘下载压缩包：http://pan.baidu.com/s/1hs1iC2C
+, 进入后下载压缩包yii2_fecshop_docker.zip
 
-下载压缩包：yii2_fecshop_docker.zip
+1.2去QQ群文件下载：群号：782387676，群文件下载压缩包：yii2_fecshop_docker.zip
 
 ```
 mkdir -p /www/web
