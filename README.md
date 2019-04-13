@@ -250,8 +250,6 @@ systemctl enable docker
 /usr/local/bin/docker-compose -f /www/web/yii2_fecshop_docker/docker-compose.yml up -d
 ```
 
-注意，要将`/www/web/yii2_fecshop_docker` 替换成您自己的地址。
-
 
 ### 安装VUE部分
 
