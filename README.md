@@ -154,6 +154,8 @@ docker-compose stop
 
 1.执行初始化
 
+> 下面的命令需要在宿主主机的：/www/web/yii2_fecshop_docker 文件路径下执行
+
 ```
 /usr/local/bin/docker-compose  exec -T php  /www/web/fecshop/init
 ```
@@ -234,6 +236,9 @@ apphtml5.mymiss.net  // 前台html5域名
 
 后台的账户密码： `admin`  `admin123`
 
+
+fecshop的完整文件在宿主主机的`/www/web/yii2_fecshop_docker/app/fecshop`
+，里面是完整fecshop文件，您可以在这里进行文件的修改和开发，测试等
 
 
 ### 配置开机启动
